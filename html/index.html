@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/index_media.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <div id="wrap">
+      <!-- header -->
+      <div id="headerWrap">
+        <header>
+          <h1>
+            <a href="#headerWrap">My portfolio</a>
+          </h1>
+          <nav>
+            <h2 class="hideClass">메인내비게이션</h2>
+            <ul>
+              <li><a href="#box01">Home</a></li>
+              <li><a href="#box02">About</a></li>
+              <li><a href="#box03">Portfolio</a></li>
+              <li><a href="#box04">contact</a></li>
+            </ul>
+            <p id="close">
+              <span></span>
+              <span></span>
+            </p>
+          </nav>
+          <p id="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </p>
+        </header>
+      </div>
+      <!-- box01 -->
+      <div id="box01">
+        <article>
+          <h3 class="hideClass">슬로건</h3>
+          <p><span>Inspire</span> with heart<br>
+            Life's a deisgn<br>
+            Everything idea</p>
+          <ul>
+            <li>
+              <span></span>
+              <dl>
+                <dt>MY STORY</dt>
+                <dd>design is what you make of it <br>
+                  photoshop illustrotor<br>
+                  html css jQuery</dd>
+              </dl>
+            </li>
+            <li>
+              <span></span>
+              <dl>
+                <dt>DESIGN</dt>
+                <dd>design is what you make of it <br>
+                  photoshop illustrotor<br>
+                  html css jQuery</dd>
+              </dl>
+            </li>
+            <li>
+              <span></span>
+              <dl>
+                <dt>CODING</dt>
+                <dd>design is what you make of it <br>
+                  photoshop illustrotor<br>
+                  html css jQuery</dd>
+              </dl>
+            </li>
+          </ul>
+        </article>
+      </div>
+      <!-- box02 -->
+      <div id="box02">
+        <article>
+          <h3>about</h3>
+          <!-- info -->
+          <section id="info">
+            <h4><img src="../images/header_pic.png" alt="자신의 이름"></h4>
+            <dl>
+              <dt>Name</dt>
+              <dd>이은혜</dd>
+              <dt>Birth</dt>
+              <dd>1994.04.19</dd>
+              <dt>Residence</dt>
+              <dd>Seoul Korea</dd>
+              <dt>Major</dt>
+              <dd>Web Design / Publishing</dd>
+              <dt>Skills</dt>
+              <dd>Photoshp, Illustrator, Html, CSS, Javascript, jQuery</dd>
+            </dl>
+          </section>
+          <!-- skill -->
+          <section id="skill">
+            <h4>Skill</h4>
+             <dl>
+               <dt>Photoshop</dt>
+               <dd>80%</dd>
+               <dt>illustrator</dt>
+               <dd>90%</dd>
+               <dt>html/css</dt>
+               <dd>90%</dd>
+               <dt>javscript</dt>
+               <dd>80%</dd>
+               <dt>jquery</dt>
+               <dd>85%</dd>
+             </dl>
+          </section>
+        </article>
+      </div>
+      <!-- box03 -->
+      <div id="box03">
+        <article>
+        <h3>Portfolio</h3>
+          <div>
+        <ul>
+          <li>
+            <figure>
+              <img src="../images/pic01.png" alt="작품1" name="0">
+              <figcaption>
+                <dl>
+                  <dt>title</dt>
+                  <dd>Hyundai Offical Site Design Renewal &amp; Coding</dd>
+                </dl>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../images/pic02.png" alt="작품1" name="1">
+              <figcaption>
+                <dl>
+                  <dt>title2</dt>
+                  <dd>Hyundai Offical Site Design Renewal &amp; Coding</dd>
+                </dl>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../images/pic03.png" alt="작품1" name="2">
+              <figcaption>
+                <dl>
+                  <dt>title3</dt>
+                  <dd>Hyundai Offical Site Design Renewal &amp; Coding</dd>
+                </dl>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+          </div>
+          <p class="prev">앞으로</p>
+          <p class="next">뒤로</p>
+        </article>
+        <!-- <section id="modal"></section> web,viewpoint 단위 -->
+        <section id="modal">
+          <div>
+            <h3>title</h3>
+            <figure>
+              <img src="../images/pic01.png" alt="">
+              <figcaption>
+                <dl>
+                  <dt>제작년도</dt>
+                  <dd class="text01">1900</dd>
+                  <dt>사용프로그램</dt>
+                  <dd class="text02">여러가지</dd>
+                  <dt>설명</dt>
+                  <dd class="text03">어쩌구저쩌구</dd>
+                </dl>
+              </figcaption>
+            </figure>
+          </div>
+          <p id="mClose">
+            <span></span>
+            <span></span>
+          </p>
+        </section>
+      </div>
+      <!-- box04 -->
+      <div id="box04">
+        <article>
+          <h3>Contact</h3>
+          <form action="#" method="post">
+            <fieldset>
+              <legend class="hideClass">contact</legend>
+              <ul>
+                <li>
+                  <label for="userName">name</label>
+                  <input type="text" id="userName" required=""  placeholder="name">
+                </li>
+                <li>
+                  <label for="usrPhone">Phone</label>
+                  <input type="tel" id="userPhone" required="" placeholder="Phone">
+                </li>
+                <li>
+                  <label for="userEmail">Email</label>
+                  <input type="email" id="userEmail" required="" placeholder="Email">
+                </li>
+                <li>
+                  <label for="userMessage">Message</label>
+                  <textarea id="userMessage" placeholder="Message"></textarea>
+                </li>
+              </ul>
+              <p><input type="subumit" value="Submit"></p>
+            </fieldset>
+          </form>
+        </article>
+      </div>
+      <!-- footer -->
+      <div id="footerWrap">
+        <footer>
+          <small>© copyright 2021 My Portfolio</small>
+        </footer>
+      </div>
+    </div>
+    <script>
+      $(function(){
+        let wWidth = $(window).width();
+        
+        if(wWidth >= 960){
+          //nav
+          wNav();
+        }
+        if(wWidth <= 959 && wWidth >= 780){
+          //nav
+          wNav();
+        }
+        if(wWidth <= 779 && wWidth >= 480){
+          //nav
+          wNav();
+          mGallery();
+          formValue();
+        }
+        if(wWidth <= 479){
+          mNav();
+          mGallery();
+          formValue();
+        }
+
+        //modal
+        //객체
+        //시스템
+        function MODAL(title, pic, year, program, text){
+          this.title = title;
+          this.pic = pic;
+          this.year = year;
+          this.program = program;
+          this.text = text;
+        }
+        //프로토타입
+        MODAL.prototype.action = function(){
+          document.querySelector('#modal h3').innerHTML= this.title;
+         // document.querySelector('#modal figure img').innerHTML= ;
+         document.querySelector('#modal figure img').setAttribute('src',this.pic);
+         document.querySelector('#modal figure img').setAttribute('alt',this.title);
+          document.querySelector('#modal dl .text01').innerHTML= this.year;
+          document.querySelector('#modal dl .text02').innerHTML= this.program;
+          document.querySelector('#modal dl .text03').innerHTML= this.text;
+        }
+
+        //인스턴스
+        let modal = [
+          new MODAL('title01','../images/pic01.png', '2021','javaScript html css','설명1'),
+          new MODAL('title02','../images/pic02.png', '2021','javaScript  css','설명2'),
+          new MODAL('title03','../images/pic03.png', '2021','javaScript jquery','설명3')
+        ]
+        modal[0].action();
+        //이벤트
+        function play(){
+          document.querySelector('#modal').style.display = 'block';
+          num = this.getAttribute('name');
+          modal[num].action();
+        }
+        function close(){
+          document.querySelector('#modal').style.display = 'none';
+        }
+        const IMG = document.querySelectorAll('#box03 li>figure>img');
+        const CLOSE = document.querySelector('#modal #mClose');
+        // console.log(CLOSE);
+
+        IMG.forEach(function(IMG){IMG.addEventListener('click',play)});
+        CLOSE.addEventListener('click',close);
+
+       });
+    </script>
+  
+  </body>
